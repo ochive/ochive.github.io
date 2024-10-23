@@ -1,0 +1,1 @@
+import{d as o,c as a,a as t,o as n,_ as s}from"./index-FgsqiPpN.js";const c={class:"box"},_=o({__name:"LoginPage",setup(r){function e(){}return(i,d)=>(n(),a("div",c,[t("button",{onClick:e},"点我登录啊!")]))}}),f=s(_,[["__scopeId","data-v-4a1e7be2"]]);export{f as default};
