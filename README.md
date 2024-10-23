@@ -11,6 +11,17 @@ vite的项目模板代码是官方的create-vue项目.
 
 因此考虑与时俱进, 多多用pnpm update升级项目依赖
 
+## github pages
+
+https://www.cnblogs.com/Marco-hui/p/12155936.html
+
+注意，vue项目显然需要打包后，部署到服务器上，才能正常在浏览器中访问。单纯的项目代码是无法被github pages运行的。
+因此我的master分支用于代码开发，另开了一个github-pages用于发布打包后的代码。
+```
+git branch github-pages
+git checkout github-pages
+```
+
 ## 内容
 
 github pages
