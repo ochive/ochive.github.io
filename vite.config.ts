@@ -11,6 +11,8 @@ console.log(fileURLToPath(new URL("./src", import.meta.url)));
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
+  // 解决部署到github pages上时不显示的问题。用于指定项目的根路径为当前目录
+  base:"./",
   resolve: {
     // 需要和tsconfig.json中的paths配合使用.
     alias: {
