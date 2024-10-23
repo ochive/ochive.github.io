@@ -265,3 +265,15 @@ layouts/HomeLayout.vue
 ```bash
 npm i -D @types/node
 ```
+
+## 为了适配移动端，准备使用移动端UI库
+
+选择有赞Vant
+https://github.com/youzan/vant
+目前还是在vite体系下使用，以后再考虑Rsbuild 
+
+优先考虑移动端适配
+
+```bash
+pnpm add vant
+```
