@@ -1,0 +1,17 @@
+/* 清除浏览器默认样式 */
+html,
+body {
+  margin:0;
+  padding:0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  /* 让1rem=10px */
+  font-size: 62.5%;
+}
+/* 设置默认字体大小. chrome对于12px以下的字体默认显示为16px. */
+body {
+  font-size: 16px;
+}
