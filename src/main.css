@@ -8,8 +8,9 @@ body {
 html {
   width: 100%;
   height: 100%;
-  /* 让1rem=10px */
-  font-size: 62.5%;
+  /* REM是一个相对单位,它的值相对于根字体大小(即html标签的font-size属性值)进行计算。例如,如果html标签的font-size设置为16px,那么1rem等于16px */
+  /* 让1rem=10px，font-size: 62.5% */
+  font-size: 16px;
 }
 /* 设置默认字体大小. chrome对于12px以下的字体默认显示为16px. */
 body {
