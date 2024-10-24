@@ -22,14 +22,6 @@ export default defineConfig({
   },
   css: {
     preprocessorOptions: {
-      // 启动对css预处理器less的支持
-      less: {
-        math: "parens-division",
-        // 全局变量
-        globalVars: {
-          // mainColor: "red",
-        },
-      },
     },
   },
   // 开发服务器配置.

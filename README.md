@@ -4,7 +4,7 @@ Thanks to [Github Pages](https://docs.github.com/cn/pages/getting-started-with-g
 
 基于https://gitee.com/mudking/front-end-samples/tree/master/vite-vue3-element-ui
 
-这个项目目的是玩耍VUE3相关生态的各种技能.因此代码最好不要依赖特定UI库.
+这个项目目的是玩耍VUE3相关生态的各种技能.因此代码尽量少使用特定UI库.
 
 使用Vite作为构架工具.
 vite的项目模板代码是官方的create-vue项目.
