@@ -1,10 +1,10 @@
+import HomePage from "@/views/HomePage.vue";
 import { RouteRecordRaw } from "vue-router";
-import Layout from "@/layouts/HomeLayout.vue";
 const routes: RouteRecordRaw[] = [
   {
     path: "/",
     meta: { title: "首页" },
-    component: Layout,
+    component: HomePage,
     children: [],
   },
   {
@@ -14,8 +14,8 @@ const routes: RouteRecordRaw[] = [
   },
   {
     path: "/",
-    component: Layout,
-    redirect:"/home",
+    // component: Layout,
+    redirect: "/home",
     children: [
       {
         path: "/home",
@@ -23,6 +23,11 @@ const routes: RouteRecordRaw[] = [
         component: () => import("@/views/HomePage.vue"),
       },
     ],
+  },
+  {
+    path: "/game/list",
+    meta: { title: "游戏列表" },
+    component: () => import("@/views/game/List.vue"),
   },
 ];
 
