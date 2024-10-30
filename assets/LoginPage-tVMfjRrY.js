@@ -1,0 +1,1 @@
+import{d as a,c as s,a as r,o as _}from"./index-gxQH2klY.js";const d={class:"box"},i=a({__name:"LoginPage",setup(o){function e(){}return(t,c)=>(_(),s("div",d,[r("button",{onClick:e},"点我登录啊!")]))}}),p=(o,e)=>{const t=o.__vccOpts||o;for(const[c,n]of e)t[c]=n;return t},l=p(i,[["__scopeId","data-v-5c212cd1"]]);export{l as default};
